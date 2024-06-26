@@ -3,18 +3,25 @@ body {
   background-color: rgba(0, 0, 0, 0);
   padding-left: 15px;
   padding-top: 15px;
+  
 }
 
-header,
 .contestant-container-row {
   display: flex; /* aligns all child elements (flex items) in a row */
-  width: 33%;
+  width: 50%;
+}
+
+.contestant-container-col-header {
+  flex: 1; /* distributes space on the line equally among items */
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 255, 0.395);
+  border: 1px solid rgb(0, 0, 0);
+  font-family: "Recursive", sans-serif;
 }
 
 .contestant-container-col {
   flex: 1; /* distributes space on the line equally among items */
-  width: 25%;
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
   font-family: "Recursive", sans-serif;
 }
