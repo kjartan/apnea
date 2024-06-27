@@ -8,12 +8,10 @@ body {
 header,
 .contestant-container-row {
   display: flex; /* aligns all child elements (flex items) in a row */
-  width: 33%;
 }
 
 .contestant-container-col {
   flex: 1; /* distributes space on the line equally among items */
-  width: 25%;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 255);
   font-family: "Recursive", sans-serif;
